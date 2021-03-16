@@ -34,7 +34,7 @@ hi
 Create an app with the Null Buildpack
 ```bash
 $ git init; git add .; git commit -am 'init'
-$ heroku create --buildpack http://github.com/ryandotsmith/null-buildpack.git
+$ heroku create --buildpack heroku-community/null
 $ git push heroku master
 ```
 
